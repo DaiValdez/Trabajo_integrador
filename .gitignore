@@ -1,0 +1,23 @@
+# Ignorar carpetas de datos de bases de datos
+data/
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar entornos virtuales
+venv/
+.env
+.env.*
+
+# Ignorar archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
