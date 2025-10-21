@@ -1,0 +1,27 @@
+version: "3.8"   # Versión del formato de Docker Compose. Indica qué sintaxis usamos.
+
+services:         # Aquí definimos los “servicios” que vamos a levantar, es decir, los contenedores.
+
+  mongo:          # Servicio MongoDB
+    image: mongo  # Imagen oficial de MongoDB, que descarga Docker si no la tenés
+    ports:
+      - "27017:27017"           # Conexión entre tu PC y el contenedor: puerto local : puerto del contenedor
+    volumes:
+      - ./data/mongo:/data/db   # Guardamos los datos en tu carpeta ./data/mongo
+
+  redis:          # Servicio Redis
+    image: redis  # Imagen oficial de Redis
+    ports:
+      - "6379:6379"             # Puerto local : puerto del contenedor
+    volumes:
+      - ./data/redis:/data      # Guardamos los datos de Redis en ./data/redis
+
+  neo4j:          # Servicio Neo4j (base de grafos)
+    image: neo4j
+    ports:
+      - "7474:7474"  # Puerto web (para abrir Neo4j en el navegador)
+      - "7687:7687"  # Puerto Bolt (para conectarnos desde Python)
+    environment:
+      - NEO4J_AUTH=neo4j/trabajo_integrador  # Usuario y contraseña para Neo4j
+    volumes:
+      - ./data/neo4j:/data     # Guardamos los datos de Neo4j en ./data/neo4j
