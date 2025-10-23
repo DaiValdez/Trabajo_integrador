@@ -1,5 +1,0 @@
-pymongo==4.15.3      # Para MongoDB
-redis==6.4.0         # Para Redis
-neo4j==6.0.2         # Para Neo4j
-matplotlib==3.10.7   # Para gráficos
-
