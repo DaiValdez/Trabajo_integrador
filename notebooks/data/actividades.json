@@ -1,12 +1,50 @@
 [
-    {"actividad_id": 1, "nombre": "Caminata en glaciares", "tipo": "aventura", "ciudad":
-    "Bariloche", "precio": 45000},
-    {"actividad_id": 2, "nombre": "Degustación de vinos", "tipo": "cultura", "ciudad":
-    "Mendoza", "precio": 30000},
-    {"actividad_id": 3, "nombre": "Tour por cerros", "tipo": "aventura", "ciudad": "Jujuy",
-    "precio": 25000},
-    {"actividad_id": 4, "nombre": "Recorrido histórico", "tipo": "cultura", "ciudad": "Córdoba",
-    "precio": 20000},
-    {"actividad_id": 5, "nombre": "Excursión en 4x4", "tipo": "aventura", "ciudad": "Salta",
-    "precio": 55000}
+  {"actividad_id": 1, "nombre": "Caminata en glaciares", "tipo": "aventura", "ciudad": "Bariloche", "precio": 45000},
+  {"actividad_id": 2, "nombre": "Esquí en Cerro Catedral", "tipo": "aventura", "ciudad": "Bariloche", "precio": 60000},
+  {"actividad_id": 3, "nombre": "Tour cervecero", "tipo": "gastronómico", "ciudad": "Bariloche", "precio": 20000},
+  {"actividad_id": 4, "nombre": "Paseo en catamarán por el Nahuel Huapi", "tipo": "relax", "ciudad": "Bariloche", "precio": 35000},
+
+  {"actividad_id": 5, "nombre": "Snorkel en arrecifes", "tipo": "aventura", "ciudad": "Cancún", "precio": 50000},
+  {"actividad_id": 6, "nombre": "Fiesta en barco", "tipo": "familiar", "ciudad": "Cancún", "precio": 40000},
+  {"actividad_id": 7, "nombre": "Visita a ruinas mayas", "tipo": "cultural", "ciudad": "Cancún", "precio": 30000},
+
+  {"actividad_id": 8, "nombre": "Tour por el Prado", "tipo": "cultural", "ciudad": "Madrid", "precio": 25000},
+  {"actividad_id": 9, "nombre": "Tapas y vinos", "tipo": "gastronómico", "ciudad": "Madrid", "precio": 35000},
+  {"actividad_id": 10, "nombre": "Flamenco show", "tipo": "cultural", "ciudad": "Madrid", "precio": 30000},
+
+  {"actividad_id": 11, "nombre": "Coliseo tour", "tipo": "histórico", "ciudad": "Roma", "precio": 40000},
+  {"actividad_id": 12, "nombre": "Museos Vaticanos", "tipo": "cultural", "ciudad": "Roma", "precio": 45000},
+  {"actividad_id": 13, "nombre": "Paseo gastronómico", "tipo": "gastronómico", "ciudad": "Roma", "precio": 30000},
+
+  {"actividad_id": 14, "nombre": "Degustación de vinos", "tipo": "cultura", "ciudad": "Mendoza", "precio": 30000},
+  {"actividad_id": 15, "nombre": "Visita a bodegas", "tipo": "cultura", "ciudad": "Mendoza", "precio": 35000},
+  {"actividad_id": 16, "nombre": "Cabalgata en viñedos", "tipo": "aventura", "ciudad": "Mendoza", "precio": 25000},
+
+  {"actividad_id": 17, "nombre": "Navegación Canal Beagle", "tipo": "aventura", "ciudad": "Ushuaia", "precio": 55000},
+  {"actividad_id": 18, "nombre": "Trekking Laguna Esmeralda", "tipo": "aventura", "ciudad": "Ushuaia", "precio": 40000},
+  {"actividad_id": 19, "nombre": "Museo del Fin del Mundo", "tipo": "cultural", "ciudad": "Ushuaia", "precio": 20000},
+
+  {"actividad_id": 20, "nombre": "Tour Torre Eiffel", "tipo": "cultural", "ciudad": "París", "precio": 50000},
+  {"actividad_id": 21, "nombre": "Paseo por el Sena", "tipo": "romántico", "ciudad": "París", "precio": 45000},
+  {"actividad_id": 22, "nombre": "Museo del Louvre", "tipo": "cultural", "ciudad": "París", "precio": 60000},
+
+  {"actividad_id": 23, "nombre": "Tour Akihabara", "tipo": "tecnología", "ciudad": "Tokio", "precio": 70000},
+  {"actividad_id": 24, "nombre": "Templos de Asakusa", "tipo": "cultural", "ciudad": "Tokio", "precio": 40000},
+  {"actividad_id": 25, "nombre": "Clases de sushi", "tipo": "gastronómico", "ciudad": "Tokio", "precio": 35000},
+
+  {"actividad_id": 26, "nombre": "Estatua de la Libertad", "tipo": "urbano", "ciudad": "Nueva York", "precio": 60000},
+  {"actividad_id": 27, "nombre": "Broadway show", "tipo": "cultural", "ciudad": "Nueva York", "precio": 80000},
+  {"actividad_id": 28, "nombre": "Central Park bike tour", "tipo": "aventura", "ciudad": "Nueva York", "precio": 30000},
+
+  {"actividad_id": 29, "nombre": "Tour Quebrada de Humahuaca", "tipo": "cultural", "ciudad": "Jujuy", "precio": 25000},
+  {"actividad_id": 30, "nombre": "Peña folklórica", "tipo": "cultural", "ciudad": "Jujuy", "precio": 20000},
+  {"actividad_id": 31, "nombre": "Senderismo Tilcara", "tipo": "aventura", "ciudad": "Jujuy", "precio": 22000},
+
+  {"actividad_id": 32, "nombre": "Excursión en 4x4", "tipo": "aventura", "ciudad": "Salta", "precio": 55000},
+  {"actividad_id": 33, "nombre": "City tour histórico", "tipo": "cultural", "ciudad": "Salta", "precio": 30000},
+  {"actividad_id": 34, "nombre": "Peña salteña", "tipo": "cultural", "ciudad": "Salta", "precio": 25000},
+
+  {"actividad_id": 35, "nombre": "Cristo Redentor", "tipo": "cultural", "ciudad": "Río de Janeiro", "precio": 40000},
+  {"actividad_id": 36, "nombre": "Playa Copacabana", "tipo": "relax", "ciudad": "Río de Janeiro", "precio": 20000},
+  {"actividad_id": 37, "nombre": "Samba show", "tipo": "cultural", "ciudad": "Río de Janeiro", "precio": 35000}
 ]

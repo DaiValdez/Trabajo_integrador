@@ -1,12 +1,50 @@
 [
-{"hotel_id": 1, "nombre": "Hotel Sol", "ciudad": "Bariloche", "precio": 85000, "calificacion":
-4, "servicios": ["wifi", "pileta", "desayuno"]},
-{"hotel_id": 2, "nombre": "Cumbres Andinas", "ciudad": "Bariloche", "precio": 120000,
-"calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
-{"hotel_id": 3, "nombre": "Altos del Norte", "ciudad": "Jujuy", "precio": 60000,
-"calificacion": 3, "servicios": ["wifi"]},
-{"hotel_id": 4, "nombre": "Montaña Real", "ciudad": "Mendoza", "precio": 95000,
-"calificacion": 4, "servicios": ["wifi", "pileta"]},
-{"hotel_id": 5, "nombre": "Estancia Colonial", "ciudad": "Córdoba", "precio": 70000,
-"calificacion": 4, "servicios": ["wifi", "desayuno"]}
+  {"hotel_id": 1, "nombre": "Hotel Sol", "ciudad": "Bariloche", "precio": 85000, "calificacion": 4, "servicios": ["wifi", "pileta", "desayuno"]},
+  {"hotel_id": 2, "nombre": "Cumbres Andinas", "ciudad": "Bariloche", "precio": 120000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+  {"hotel_id": 3, "nombre": "Lagos del Sur", "ciudad": "Bariloche", "precio": 95000, "calificacion": 4, "servicios": ["wifi", "pileta", "gimnasio"]},
+  {"hotel_id": 4, "nombre": "Nevados Resort", "ciudad": "Bariloche", "precio": 70000, "calificacion": 3, "servicios": ["wifi", "desayuno"]},
+
+  {"hotel_id": 5, "nombre": "Playa Azul", "ciudad": "Cancún", "precio": 155000, "calificacion": 5, "servicios": ["wifi", "pileta", "bar"]},
+  {"hotel_id": 6, "nombre": "Caribe Resort", "ciudad": "Cancún", "precio": 140000, "calificacion": 4, "servicios": ["wifi", "pileta", "desayuno"]},
+  {"hotel_id": 7, "nombre": "Arena Blanca", "ciudad": "Cancún", "precio": 160000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+
+  {"hotel_id": 8, "nombre": "Madrid Centro", "ciudad": "Madrid", "precio": 115000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 9, "nombre": "Gran Vía Suites", "ciudad": "Madrid", "precio": 125000, "calificacion": 5, "servicios": ["wifi", "spa", "gimnasio"]},
+  {"hotel_id": 10, "nombre": "Hostal Sol y Sombra", "ciudad": "Madrid", "precio": 90000, "calificacion": 3, "servicios": ["wifi"]},
+
+  {"hotel_id": 11, "nombre": "Roma Antica", "ciudad": "Roma", "precio": 105000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 12, "nombre": "Colosseo Inn", "ciudad": "Roma", "precio": 98000, "calificacion": 3, "servicios": ["wifi"]},
+  {"hotel_id": 13, "nombre": "Fontana di Trevi Hotel", "ciudad": "Roma", "precio": 130000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+
+  {"hotel_id": 14, "nombre": "Montaña Real", "ciudad": "Mendoza", "precio": 95000, "calificacion": 4, "servicios": ["wifi", "pileta"]},
+  {"hotel_id": 15, "nombre": "Viñedos Lodge", "ciudad": "Mendoza", "precio": 85000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 16, "nombre": "Andes Boutique", "ciudad": "Mendoza", "precio": 110000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+
+  {"hotel_id": 17, "nombre": "Ushuaia Sur", "ciudad": "Ushuaia", "precio": 97000, "calificacion": 4, "servicios": ["wifi", "pileta"]},
+  {"hotel_id": 18, "nombre": "Glaciares Inn", "ciudad": "Ushuaia", "precio": 105000, "calificacion": 5, "servicios": ["wifi", "spa"]},
+  {"hotel_id": 19, "nombre": "Fin del Mundo Hostel", "ciudad": "Ushuaia", "precio": 65000, "calificacion": 3, "servicios": ["wifi"]},
+
+  {"hotel_id": 20, "nombre": "Paris Lumière", "ciudad": "París", "precio": 145000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+  {"hotel_id": 21, "nombre": "Eiffel Suites", "ciudad": "París", "precio": 135000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 22, "nombre": "Montmartre Inn", "ciudad": "París", "precio": 120000, "calificacion": 3, "servicios": ["wifi"]},
+
+  {"hotel_id": 23, "nombre": "Tokyo Tower Inn", "ciudad": "Tokio", "precio": 165000, "calificacion": 5, "servicios": ["wifi", "spa", "gimnasio"]},
+  {"hotel_id": 24, "nombre": "Shinjuku Hotel", "ciudad": "Tokio", "precio": 150000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 25, "nombre": "Akihabara Stay", "ciudad": "Tokio", "precio": 140000, "calificacion": 3, "servicios": ["wifi"]},
+
+  {"hotel_id": 26, "nombre": "NYC Central", "ciudad": "Nueva York", "precio": 175000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]},
+  {"hotel_id": 27, "nombre": "Times Square Inn", "ciudad": "Nueva York", "precio": 160000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 28, "nombre": "Brooklyn Lodge", "ciudad": "Nueva York", "precio": 140000, "calificacion": 3, "servicios": ["wifi"]},
+
+  {"hotel_id": 29, "nombre": "Altos del Norte", "ciudad": "Jujuy", "precio": 60000, "calificacion": 3, "servicios": ["wifi"]},
+  {"hotel_id": 30, "nombre": "Quebrada Suites", "ciudad": "Jujuy", "precio": 75000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 31, "nombre": "Tilcara Inn", "ciudad": "Jujuy", "precio": 80000, "calificacion": 4, "servicios": ["wifi", "pileta"]},
+
+  {"hotel_id": 32, "nombre": "Salta Colonial", "ciudad": "Salta", "precio": 72000, "calificacion": 3, "servicios": ["wifi"]},
+  {"hotel_id": 33, "nombre": "Cerro San Bernardo Hotel", "ciudad": "Salta", "precio": 85000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 34, "nombre": "Valles Boutique", "ciudad": "Salta", "precio": 95000, "calificacion": 5, "servicios": ["wifi", "spa"]},
+
+  {"hotel_id": 35, "nombre": "Copacabana Suites", "ciudad": "Río de Janeiro", "precio": 125000, "calificacion": 4, "servicios": ["wifi", "pileta", "bar"]},
+  {"hotel_id": 36, "nombre": "Ipanema Inn", "ciudad": "Río de Janeiro", "precio": 115000, "calificacion": 4, "servicios": ["wifi", "desayuno"]},
+  {"hotel_id": 37, "nombre": "Cristo Redentor Hotel", "ciudad": "Río de Janeiro", "precio": 135000, "calificacion": 5, "servicios": ["wifi", "spa", "pileta"]}
 ]
