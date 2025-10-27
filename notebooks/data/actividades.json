@@ -46,5 +46,11 @@
 
   {"actividad_id": 35, "nombre": "Cristo Redentor", "tipo": "cultural", "ciudad": "Río de Janeiro", "precio": 40000},
   {"actividad_id": 36, "nombre": "Playa Copacabana", "tipo": "relax", "ciudad": "Río de Janeiro", "precio": 20000},
-  {"actividad_id": 37, "nombre": "Samba show", "tipo": "cultural", "ciudad": "Río de Janeiro", "precio": 35000}
+  {"actividad_id": 37, "nombre": "Samba show", "tipo": "cultural", "ciudad": "Río de Janeiro", "precio": 35000},
+
+  {"actividad_id": 38, "nombre": "Visita a la Casa Histórica", "tipo": "cultural", "ciudad": "Tucumán", "precio": 25000},
+  {"actividad_id": 39, "nombre": "Trekking en el Cerro San Javier", "tipo": "aventura", "ciudad": "Tucumán", "precio": 40000},
+  {"actividad_id": 40, "nombre": "Ruta del azúcar", "tipo": "cultural", "ciudad": "Tucumán", "precio": 30000},
+  {"actividad_id": 41, "nombre": "Cena con peña folklórica", "tipo": "gastronómico", "ciudad": "Tucumán", "precio": 35000},
+  {"actividad_id": 42, "nombre": "Relax en Tafí del Valle", "tipo": "relax", "ciudad": "Tucumán", "precio": 45000}
 ]

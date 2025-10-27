@@ -1,28 +1,55 @@
 [
-  { "reserva_id": 1, "usuario_id": 1, "destino": "Madrid", "estado": "Concretada" },
-  { "reserva_id": 2, "usuario_id": 1, "destino": "Roma", "estado": "Concretada" },
-  { "reserva_id": 3, "usuario_id": 1, "destino": "París", "estado": "Concretada" },
-  { "reserva_id": 4, "usuario_id": 1, "destino": "Berlín", "estado": "Concretada" },
+  { "reserva_id": 1, "usuario_id": 1, "destino_id": 1, "fecha_reserva": "2025-05-01", "estado": "Concretada", "precio_total": 90000 },
+  { "reserva_id": 2, "usuario_id": 1, "destino_id": 3, "fecha_reserva": "2025-05-15", "estado": "Concretada", "precio_total": 110000 },
+  { "reserva_id": 3, "usuario_id": 1, "destino_id": 4, "fecha_reserva": "2025-06-05", "estado": "Concretada", "precio_total": 100000 },
+  { "reserva_id": 4, "usuario_id": 1, "destino_id": 7, "fecha_reserva": "2025-06-25", "estado": "Pagada", "precio_total": 140000 },
+  { "reserva_id": 5, "usuario_id": 1, "destino_id": 9, "fecha_reserva": "2025-07-10", "estado": "Cancelada", "precio_total": 170000 },
 
-  { "reserva_id": 5, "usuario_id": 2, "destino": "Londres", "estado": "Concretada" },
-  { "reserva_id": 6, "usuario_id": 2, "destino": "Barcelona", "estado": "Concretada" },
-  { "reserva_id": 7, "usuario_id": 2, "destino": "Ámsterdam", "estado": "Concretada" },
+  { "reserva_id": 6, "usuario_id": 2, "destino_id": 1, "fecha_reserva": "2025-06-15", "estado": "Concretada", "precio_total": 90000 },
+  { "reserva_id": 7, "usuario_id": 2, "destino_id": 2, "fecha_reserva": "2025-07-05", "estado": "Pagada", "precio_total": 150000 },
 
-  { "reserva_id": 8, "usuario_id": 3, "destino": "Berlín", "estado": "Concretada" },
+  { "reserva_id": 8, "usuario_id": 3, "destino_id": 3, "fecha_reserva": "2025-05-20", "estado": "Cancelada", "precio_total": 110000 },
 
-  { "reserva_id": 9, "usuario_id": 4, "destino": "Lisboa", "estado": "Concretada" },
-  { "reserva_id": 10, "usuario_id": 4, "destino": "Atenas", "estado": "Concretada" },
-  { "reserva_id": 11, "usuario_id": 4, "destino": "Estambul", "estado": "Concretada" },
-  { "reserva_id": 12, "usuario_id": 4, "destino": "Praga", "estado": "Concretada" },
-  { "reserva_id": 13, "usuario_id": 4, "destino": "Budapest", "estado": "Concretada" },
+  { "reserva_id": 9, "usuario_id": 4, "destino_id": 2, "fecha_reserva": "2025-06-30", "estado": "Concretada", "precio_total": 150000 },
+  { "reserva_id": 10, "usuario_id": 4, "destino_id": 6, "fecha_reserva": "2025-07-12", "estado": "Pendiente", "precio_total": 95000 },
 
-  { "reserva_id": 14, "usuario_id": 5, "destino": "Nueva York", "estado": "Concretada" },
-  { "reserva_id": 15, "usuario_id": 5, "destino": "Miami", "estado": "Concretada" },
+  { "reserva_id": 11, "usuario_id": 5, "destino_id": 9, "fecha_reserva": "2025-06-25", "estado": "Concretada", "precio_total": 170000 },
+  { "reserva_id": 12, "usuario_id": 5, "destino_id": 4, "fecha_reserva": "2025-06-30", "estado": "Concretada", "precio_total": 100000 },
+  { "reserva_id": 13, "usuario_id": 5, "destino_id": 1, "fecha_reserva": "2025-07-05", "estado": "Concretada", "precio_total": 90000 },
+  { "reserva_id": 14, "usuario_id": 5, "destino_id": 2, "fecha_reserva": "2025-07-12", "estado": "Concretada", "precio_total": 150000 },
+  { "reserva_id": 15, "usuario_id": 5, "destino_id": 3, "fecha_reserva": "2025-07-20", "estado": "Concretada", "precio_total": 110000 },
+  { "reserva_id": 16, "usuario_id": 5, "destino_id": 6, "fecha_reserva": "2025-07-30", "estado": "Concretada", "precio_total": 95000 },
+  { "reserva_id": 17, "usuario_id": 5, "destino_id": 7, "fecha_reserva": "2025-08-10", "estado": "Concretada", "precio_total": 140000 },
+  { "reserva_id": 18, "usuario_id": 5, "destino_id": 10, "fecha_reserva": "2025-08-22", "estado": "Concretada", "precio_total": 60000 },
 
-  { "reserva_id": 16, "usuario_id": 6, "destino": "Tokio", "estado": "Concretada" },
-  { "reserva_id": 17, "usuario_id": 6, "destino": "Kioto", "estado": "Concretada" },
-  { "reserva_id": 18, "usuario_id": 6, "destino": "Osaka", "estado": "Concretada" },
-  { "reserva_id": 19, "usuario_id": 6, "destino": "Hiroshima", "estado": "Concretada" },
+  { "reserva_id": 19, "usuario_id": 6, "destino_id": 8, "fecha_reserva": "2025-05-22", "estado": "Concretada", "precio_total": 160000 },
 
-  { "reserva_id": 20, "usuario_id": 7, "destino": "Sídney", "estado": "Concretada" }
+  { "reserva_id": 20, "usuario_id": 7, "destino_id": 12, "fecha_reserva": "2025-07-14", "estado": "Concretada", "precio_total": 120000 },
+
+  { "reserva_id": 21, "usuario_id": 8, "destino_id": 6, "fecha_reserva": "2025-06-05", "estado": "Pendiente", "precio_total": 95000 },
+
+  { "reserva_id": 22, "usuario_id": 9, "destino_id": 11, "fecha_reserva": "2025-07-09", "estado": "Pendiente", "precio_total": 70000 },
+
+  { "reserva_id": 23, "usuario_id": 10, "destino_id": 5, "fecha_reserva": "2025-06-11", "estado": "Concretada", "precio_total": 80000 },
+  { "reserva_id": 24, "usuario_id": 10, "destino_id": 10, "fecha_reserva": "2025-06-27", "estado": "Pendiente", "precio_total": 60000 },
+
+  { "reserva_id": 25, "usuario_id": 11, "destino_id": 3, "fecha_reserva": "2025-05-14", "estado": "Concretada", "precio_total": 110000 },
+  { "reserva_id": 26, "usuario_id": 11, "destino_id": 1, "fecha_reserva": "2025-05-21", "estado": "Concretada", "precio_total": 90000 },
+  { "reserva_id": 27, "usuario_id": 11, "destino_id": 2, "fecha_reserva": "2025-06-02", "estado": "Pagada", "precio_total": 150000 },
+  { "reserva_id": 28, "usuario_id": 11, "destino_id": 4, "fecha_reserva": "2025-06-15", "estado": "Concretada", "precio_total": 100000 },
+  { "reserva_id": 29, "usuario_id": 11, "destino_id": 5, "fecha_reserva": "2025-06-25", "estado": "Concretada", "precio_total": 80000 },
+  { "reserva_id": 30, "usuario_id": 11, "destino_id": 6, "fecha_reserva": "2025-07-03", "estado": "Concretada", "precio_total": 95000 },
+  { "reserva_id": 31, "usuario_id": 11, "destino_id": 7, "fecha_reserva": "2025-07-15", "estado": "Concretada", "precio_total": 140000 },
+  { "reserva_id": 32, "usuario_id": 11, "destino_id": 8, "fecha_reserva": "2025-07-20", "estado": "Cancelada", "precio_total": 160000 },
+
+  { "reserva_id": 33, "usuario_id": 12, "destino_id": 7, "fecha_reserva": "2025-07-02", "estado": "Concretada", "precio_total": 140000 },
+
+  { "reserva_id": 34, "usuario_id": 13, "destino_id": 1, "fecha_reserva": "2025-06-01", "estado": "Concretada", "precio_total": 90000 },
+  { "reserva_id": 35, "usuario_id": 13, "destino_id": 2, "fecha_reserva": "2025-06-10", "estado": "Concretada", "precio_total": 150000 },
+  { "reserva_id": 36, "usuario_id": 13, "destino_id": 3, "fecha_reserva": "2025-06-20", "estado": "Concretada", "precio_total": 110000 },
+  { "reserva_id": 37, "usuario_id": 13, "destino_id": 5, "fecha_reserva": "2025-06-28", "estado": "Concretada", "precio_total": 80000 },
+  { "reserva_id": 38, "usuario_id": 13, "destino_id": 9, "fecha_reserva": "2025-07-05", "estado": "Cancelada", "precio_total": 170000 },
+
+  { "reserva_id": 39, "usuario_id": 14, "destino_id": 5, "fecha_reserva": "2025-07-20", "estado": "Concretada", "precio_total": 80000 }
 ]
+
